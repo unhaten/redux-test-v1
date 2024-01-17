@@ -26,7 +26,7 @@ const TodoList: FC = () => {
                 <div style={{display: 'flex', justifyContent: 'center', marginTop: 10}}>
                     {pages.map(p => <div
                         onClick={() => setTodoPage(p)}
-                        style={{border: p === page ? '2px solid green' : '1px solid gray', padding: 10}}>{p}</div>)}
+                        style={{border: p === page ? '2px solid green' : '1px solid gray', padding: 15}}>{p}</div>)}
                 </div>
             </div>
         </>
